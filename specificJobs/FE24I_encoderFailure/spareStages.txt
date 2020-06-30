@@ -1,0 +1,24 @@
+Horizontal:
+
+	Limit Direction:	+VE = To motor
+	Encoder:		HEDL-5540-A14 (2000ppr)
+	Gearbox:		10:1 (measured, not completely sure)
+	Screw Pitch:		0.8mm (measured, not completely sure)
+	Resolution:		40nm
+	Homing:			Homes on a negative limit which is high precision
+	PLIM_encoder:		452442 (18.09768mm)
+	PLIM_motor:		2262237
+	PLIM_gauge:		18.075mm
+	NLIM_encoder:		0
+
+Vertical
+
+	Limit Direction:	+VE = To Up
+	Encoder:		HEDL-5540-A14 (2000ppr)
+	Homing:			Homes on a negative limit which is high precision
+	PLIM_encoder:		526578
+	PLIM_motor:		5265786
+	PLIM_gauge:		10.46mm
+	NLIM_encoder:		0
+
+

@@ -1,0 +1,47 @@
+1147700
+    4   -   What type of terminal server are these? 4 port d-type. Chris Colborne
+    8   -   We have an analog input ethercat module going to a CIU. The CIU has a pre-made cable "139" attached to it
+            but this doesn't appear to go anywhere. Is this just for future expansion? There are other cables here 
+            that don't appear to be terminated, is this drawing finished? Looks like something is missing.
+            Also sheet 10 & 12.
+    8   -   Ethercat modules are in SR26C-VA-RACK-01? Is this right or a typo? Also sheet 10 & 12.
+
+1144757
+    1   -   Can we get device names on this drawing?
+
+
+1150660
+    1   -   Can we get device names on this drawing?    
+
+
+
+
+ethercat
+        EK1100 coupler  1147700/8     
+        ES3702 Analog   1147700/8 
+        ES3702 Analog   1147700/10
+        ES3702 Analog   1147700/12
+    
+
+
+RGAs
+        FE10B-VA-RGA-01     TCP/IP
+        FE10B-VA-RGA-02     TCP/IP         
+        FE10B-VA-RGA-03     TCP/IP     
+        FE10B-VA-RGA-04     TCP/IP     
+        FE10B-VA-RGA-05     TCP/IP     
+    
+
+
+MPCq    FE10B-VA-MPC-01     SR10C-VA-TSERV-01   port 3  1147700/4
+        FE10B-VA-IONP-01
+        FE10B-VA-IONP-02
+        FE10B-VA-IONP-03
+        FE10B-VA-IONP-04
+
+MPCq    FE10B-VA-MPC-02     SR10C-VA-TSERV-01   port 4  1147700/4
+        FE10B-VA-IONP-05
+        FE10B-VA-IONP-06
+
+FE10B-MO-STEP-01
+        
