@@ -1,0 +1,5 @@
+Service Tag: J42895J
+MAC: D4AE52778363
+
+idrac MAC: 	D4-AE-52-77-83-65
+nic MAC:	D4-AE-52-77-83-63
