@@ -1,0 +1,8 @@
+Colin
+17 - 18 aug	Set encoders to phi0, cart axes should read zero
+
+Rack outside CIA 3
+
+Left socket is Primary
+
+Run gui /dls_sw/work/R3.14.12.3/ioc/SR25A/AL/SR25A-AL-IOC-01App/opi/SR25A_spare_prod.sh

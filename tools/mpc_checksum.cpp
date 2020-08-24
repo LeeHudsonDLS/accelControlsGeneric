@@ -6,7 +6,7 @@ int main(){
 
     uint16_t total = 0;
     uint16_t result = 0;
-    char* message  = "~ 01 ED 1,\"SR20A-VA-IONP-03\" ";
+    char* message  = "01 OK 00 -2.7E+154 -2.7E+154 -2 ";
 
     for(int i =0; i < strlen(message); i++){
         total+=message[i];
