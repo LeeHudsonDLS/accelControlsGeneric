@@ -33,6 +33,7 @@ unset EDMOBJECTS EDMPVOBJECTS EDM
 install -d ${EPICS_EXTENSIONS}/etc
 mv edmObjects edmPvObjects ${EPICS_EXTENSIONS}/etc/
 
+export EDMFONTFILE=/scratch/fonts.list
 # Do on session start
 export EDMOBJECTS=$EPICS_EXTENSIONS/etc
 export EDMPVOBJECTS=$EPICS_EXTENSIONS/etc
