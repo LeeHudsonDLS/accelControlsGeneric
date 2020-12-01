@@ -1,0 +1,39 @@
+
+
+dnf check-update
+dnf -y update
+dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+dnf -y install gcc gcc-c++ gcc-toolset-9-make readline-devel perl-ExtUtils-Install
+subscription-manager repos --enable codeready-builder-for-rhel-8-x86_64-rpms
+dnf config-manager --set-enabled codeready-builder-for-rhel-8-rhui-rpms
+dnf -y install re2c libusb-devel rpcgen
+dnf -y install libxml2-devel libtirpc-devel pcre-devel libXext-devel libjpeg-devel readline-devel boost-devel
+# For EDM:
+dny -y install giflib-devel
+dnf -y install zlib-devel libpng-devel giflib motif-devel libXtst-devel
+
+
+
+https://mdavidsaver.github.io/epics-doc/epics-starting.html#_edm
+
+export EPICS_EXTENSIONS=
+cd ${EPICS_EXTENSIONS}/lib/${EPICS_HOST_ARCH}
+export EDMOBJECTS=$PWD
+export EDMPVOBJECTS=$PWD
+export EDM=${EPICS_EXTENSIONS}/bin/${EPICS_HOST_ARCH}/edm
+for pv in Epics Calc Log Loc;do $EDM -addpv $PWD/lib$pv.so;done
+for ff in lib*.so;do ${EDM} -add $PWD/$ff; done
+sed -i -e "s|$PWD|"'$(EDMLIBS)|' edmObjects edmPvObjects
+rm edmObjects~ edmPvObjects~
+unset EDMOBJECTS EDMPVOBJECTS EDM
+install -d ${EPICS_EXTENSIONS}/etc
+mv edmObjects edmPvObjects ${EPICS_EXTENSIONS}/etc/
+
+export EDMOBJECTS=$EPICS_EXTENSIONS/etc
+export EDMPVOBJECTS=$EPICS_EXTENSIONS/etc
+export EDMFILES=$EPICS_EXTENSIONS/src/edm/edmMain
+export EDMHELPFILES=$EPICS_EXTENSIONS/src/edm/helpFiles
+export EDMLIBS=$EPICS_EXTENSIONS/lib/$EPICS_HOST_ARCH
+
+export PATH="${EPICS_EXTENSIONS}/bin/${EPICS_HOST_ARCH}:${PATH}"
+edm
