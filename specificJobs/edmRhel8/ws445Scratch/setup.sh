@@ -16,4 +16,10 @@ export EDMLIBS=$EPICS_EXTENSIONS/lib/$EPICS_HOST_ARCH
 export EDMFONTFILE=/scratch/fonts.list
 
 export PATH="${EPICS_EXTENSIONS}/bin/${EPICS_HOST_ARCH}:${PATH}"
+export PATH="/scratch/extensions/fonts/arial:${PATH}"
+export PATH="/scratch/extensions/fonts/courier:${PATH}"
+
+xset +fp /scratch/extensions/fonts/arial
+xset +fp /scratch/extensions/fonts/courier
+xset fp rehash
 cd /scratch
