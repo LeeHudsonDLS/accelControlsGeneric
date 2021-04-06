@@ -1,0 +1,7 @@
+
+FE19I-CS-IOC-01 -> dbcar("*",1)
+CA links in all records
+
+Total 1172 CA links; 1172 connected, 0 not connected.
+    0 can't read, 4 can't write.  (0 disconnects, 16 writes prohibited)
+

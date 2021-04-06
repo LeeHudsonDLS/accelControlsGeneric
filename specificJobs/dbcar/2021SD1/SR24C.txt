@@ -1,0 +1,11 @@
+SR24C_0.sav: 90 of 90 PV's connected
+dbcar("*",1)
+CA links in all records
+
+       SR24C-VA-MIMG-01:MEAN.INPH --> SR24I-VA-IMG-01:P             (0, 0)
+       SR24C-VA-MIMG-01:MEAN.INPR --> SR24I-VA-IMG-01:STA           (0, 0)
+       SR24S-VA-MIMG-02:MEAN.INPH --> SR24I-VA-IMG-01:P             (0, 0)
+       SR24S-VA-MIMG-02:MEAN.INPR --> SR24I-VA-IMG-01:STA           (0, 0)
+
+Total 1329 CA links; 1325 connected, 4 not connected.
+

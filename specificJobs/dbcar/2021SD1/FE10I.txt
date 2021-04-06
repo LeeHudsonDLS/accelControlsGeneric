@@ -1,0 +1,11 @@
+FE10I-CS-IOC-01 -> dbcar("*",1)
+CA links in all records
+
+    FE10I-DI-PBPM-01:X:STATS.INPB --> FE10I-DI-PBPM-01:X            (0, 0)
+    FE10I-DI-PBPM-01:Y:STATS.INPB --> FE10I-DI-PBPM-01:Y            (0, 0)
+    FE10I-DI-PBPM-02:X:STATS.INPB --> FE10I-DI-PBPM-02:X            (0, 0)
+    FE10I-DI-PBPM-02:Y:STATS.INPB --> FE10I-DI-PBPM-02:Y            (0, 0)
+
+Total 1201 CA links; 1197 connected, 4 not connected.
+    0 can't read, 4 can't write.  (0 disconnects, 16 writes prohibited)
+

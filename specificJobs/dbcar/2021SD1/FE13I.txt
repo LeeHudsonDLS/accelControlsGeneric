@@ -1,0 +1,21 @@
+FE13I-CS-IOC-01 -> dbcar("*",1)
+CA links in all records
+
+   FE13I-DI-PBPM-01:X:LOOKUP.INPG --> SR13I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE13I-DI-PBPM-01:X:STATS.INPB --> FE13I-DI-PBPM-01:X            (0, 0)
+   FE13I-DI-PBPM-01:Y:LOOKUP.INPG --> SR13I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE13I-DI-PBPM-01:Y:STATS.INPB --> FE13I-DI-PBPM-01:Y            (0, 0)
+   FE13J-DI-PBPM-01:X:LOOKUP.INPG --> SR13I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE13J-DI-PBPM-01:X:STATS.INPB --> FE13J-DI-PBPM-01:X            (0, 0)
+   FE13J-DI-PBPM-01:Y:LOOKUP.INPG --> SR13I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE13J-DI-PBPM-01:Y:STATS.INPB --> FE13J-DI-PBPM-01:Y            (0, 0)
+       FE13I-VA-PIRG-01:PSEQ.DOL1 --> OK                            (0, 0)
+       FE13I-VA-PIRG-02:PSEQ.DOL1 --> OK                            (0, 0)
+       FE13I-VA-PIRG-03:PSEQ.DOL1 --> OK                            (0, 0)
+       FE13I-VA-PIRG-04:PSEQ.DOL1 --> OK                            (0, 0)
+       FE13I-VA-PIRG-05:PSEQ.DOL1 --> OK                            (0, 0)
+       FE13I-VA-PIRG-06:PSEQ.DOL1 --> OK                            (0, 0)
+
+Total 1258 CA links; 1244 connected, 14 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 13 writes prohibited)
+

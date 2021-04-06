@@ -1,0 +1,30 @@
+FE09I-CS-IOC-01 -> dbcar("*",1)
+CA links in all records
+
+   FE09I-DI-PBPM-01:X:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09I-DI-PBPM-01:X:STATS.INPB --> FE09I-DI-PBPM-01:X            (0, 0)
+   FE09I-DI-PBPM-01:Y:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09I-DI-PBPM-01:Y:STATS.INPB --> FE09I-DI-PBPM-01:Y            (0, 0)
+   FE09I-DI-PBPM-02:X:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09I-DI-PBPM-02:X:STATS.INPB --> FE09I-DI-PBPM-02:X            (0, 0)
+   FE09I-DI-PBPM-02:Y:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09I-DI-PBPM-02:Y:STATS.INPB --> FE09I-DI-PBPM-02:Y            (0, 0)
+   FE09J-DI-PBPM-01:X:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09J-DI-PBPM-01:X:STATS.INPB --> FE09J-DI-PBPM-01:X            (0, 0)
+   FE09J-DI-PBPM-01:Y:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09J-DI-PBPM-01:Y:STATS.INPB --> FE09J-DI-PBPM-01:Y            (0, 0)
+   FE09J-DI-PBPM-02:X:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09J-DI-PBPM-02:X:STATS.INPB --> FE09J-DI-PBPM-02:X            (0, 0)
+   FE09J-DI-PBPM-02:Y:LOOKUP.INPG --> SR09I-MO-SERVO-05:MOT.RBV     (0, 0)
+    FE09J-DI-PBPM-02:Y:STATS.INPB --> FE09J-DI-PBPM-02:Y            (0, 0)
+       FE09I-VA-PIRG-01:PSEQ.DOL1 --> OK                            (0, 0)
+       FE09I-VA-PIRG-02:PSEQ.DOL1 --> OK                            (0, 0)
+       FE09I-VA-PIRG-03:PSEQ.DOL1 --> OK                            (0, 0)
+       FE09I-VA-PIRG-04:PSEQ.DOL1 --> OK                            (0, 0)
+       FE09I-VA-PIRG-05:PSEQ.DOL1 --> OK                            (0, 0)
+       FE09I-VA-PIRG-06:PSEQ.DOL1 --> OK                            (0, 0)
+                                                                                            FE09I-PS-SHTR-01:INPTIMEOUT.INP  --> FE09I-VA-VLVCC-01:DM4XX       (0, 0)
+
+Total 1232 CA links; 1209 connected, 23 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 13 writes prohibited)
+

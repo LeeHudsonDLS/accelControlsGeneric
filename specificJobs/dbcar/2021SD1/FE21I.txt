@@ -1,0 +1,16 @@
+FE21I-CS-IOC-01 >dbcar("*",1)
+CA links in all records
+
+FE21I-DI-PBPM-01:CALCTMPALM01.INPA --> FE21I-DI-PBPM-01:TMON01.SEVR  (0, 0)
+FE21I-DI-PBPM-01:CALCTMPALM02.INPA --> FE21I-DI-PBPM-01:TMON02.SEVR  (0, 0)
+FE21I-DI-PBPM-02:CALCTMPALM01.INPA --> FE21I-DI-PBPM-02:TMON01.SEVR  (0, 0)
+FE21I-DI-PBPM-02:CALCTMPALM02.INPA --> FE21I-DI-PBPM-02:TMON02.SEVR  (0, 0)
+       FE21I-VA-PIRG-01:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21I-VA-PIRG-02:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21I-VA-PIRG-03:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21I-VA-PIRG-04:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21I-VA-PIRG-05:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21I-VA-PIRG-06:PSEQ.DOL1 --> OK                            (0, 0)
+
+Total 1133 CA links; 1123 connected, 10 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 13 writes prohibited)

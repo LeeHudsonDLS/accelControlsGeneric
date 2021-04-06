@@ -1,0 +1,24 @@
+epics> dbcar("*",1)
+CA links in all records
+
+FE24B-DI-PBPM-01:CALCTMPALM02.INPA --> FE24B-DI-PBPM-01:TMON02:C.SEVR  (0, 0)
+FE24B-DI-PBPM-02:CALCTMPALM02.INPA --> FE24B-DI-PBPM-02:TMON02:C.SEVR  (0, 0)
+FE24B-RS-RDMON-01:TIMERRESETDISA.INPA --> BL24B-RS-RDMON-01:RESET:OK    (0, 0)
+       FE24B-VA-GAUGE-02:SEL.INPB --> FE24B-VA-PIRG-02:STA          (0, 0)
+          FE24B-VA-PIRG-91:P.INPB --> FE24B-VA-PIRG-02:P            (0, 0)
+    FE24B-VA-PIRG-91:RLY1:SP.INPB --> FE24B-VA-PIRG-02:RLY1:SP      (0, 0)
+     FE24B-VA-PIRG-91:SELSTA.INPB --> FE24B-VA-PIRG-02:STA          (0, 0)
+       FE24B-VA-PIRG-01:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-03:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-04:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-05:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-06:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-07:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-08:PSEQ.DOL1 --> OK                            (0, 0)
+       FE24B-VA-PIRG-11:PSEQ.DOL1 --> OK                            (0, 0)
+ FE24B-VA-PIRG-91:RLY1:SEQSP.LNK2 --> FE24B-VA-PIRG-02:RLY1:SETSP   (0, 0)
+FE24B-RS-ABSB-03:GETINPTCLOSE.INP  --> FE24B-VA-VLVCC-02:DM11XX      (0, 0)
+
+Total 2065 CA links; 2048 connected, 17 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 39 writes prohibited)
+

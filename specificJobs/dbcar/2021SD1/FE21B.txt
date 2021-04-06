@@ -1,0 +1,13 @@
+FE21B-CS-IOC-01 >dbcar("*",1)
+CA links in all records
+
+FE21B-RS-RDMON-01:TIMERRESETDISA.INPA --> BL21B-RS-RDMON-01:RESET:OK    (0, 0)
+       FE21B-VA-PIRG-01:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21B-VA-PIRG-02:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21B-VA-PIRG-03:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21B-VA-PIRG-04:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21B-VA-PIRG-05:PSEQ.DOL1 --> OK                            (0, 0)
+       FE21B-VA-PIRG-06:PSEQ.DOL1 --> OK                            (0, 0)
+
+Total 1101 CA links; 1094 connected, 7 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 14 writes prohibited)

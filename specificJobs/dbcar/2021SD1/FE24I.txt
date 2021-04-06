@@ -1,0 +1,11 @@
+FE24I-CS-IOC-01 -> dbcar("*",1)
+CA links in all records
+
+   FE24I-DI-PBPM-01:X:LOOKUP.INPG --> SR24I-MO-SERVO-05:MOT.RBV     (0, 0)
+   FE24I-DI-PBPM-01:Y:LOOKUP.INPG --> SR24I-MO-SERVO-05:MOT.RBV     (0, 0)
+   FE24I-DI-PBPM-02:X:LOOKUP.INPG --> SR24I-MO-SERVO-05:MOT.RBV     (0, 0)
+   FE24I-DI-PBPM-02:Y:LOOKUP.INPG --> SR24I-MO-SERVO-05:MOT.RBV     (0, 0)
+
+Total 1104 CA links; 1100 connected, 4 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 13 writes prohibited)
+

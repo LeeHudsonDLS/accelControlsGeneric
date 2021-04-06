@@ -1,0 +1,13 @@
+epics> dbcar("*",1)
+CA links in all records
+
+       FE23I-VA-PIRG-01:PSEQ.DOL1 --> OK                            (0, 0)
+       FE23I-VA-PIRG-02:PSEQ.DOL1 --> OK                            (0, 0)
+       FE23I-VA-PIRG-03:PSEQ.DOL1 --> OK                            (0, 0)
+       FE23I-VA-PIRG-04:PSEQ.DOL1 --> OK                            (0, 0)
+       FE23I-VA-PIRG-05:PSEQ.DOL1 --> OK                            (0, 0)
+       FE23I-VA-PIRG-06:PSEQ.DOL1 --> OK                            (0, 0)
+
+Total 1073 CA links; 1067 connected, 6 not connected.
+    0 can't read, 0 can't write.  (0 disconnects, 13 writes prohibited)
+
