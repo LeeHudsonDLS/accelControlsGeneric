@@ -1,0 +1,25 @@
+All insertion device front ends will be carried into diamond 2, some of them that have 2 branches (i04 i04.1 i20-1 i20-2) will have one in the K straight. 
+
+These only had one FE anyway, will i04 change to k04 etc? 
+Is this just a name change or physical location change?
+
+K04 and K14 flagship FEs. Just mechanical upgrades? I think so
+
+K07 = B07
+
+Georg
+
+
+
+
+
+
+https://confluence.diamond.ac.uk/display/AEGGroup/D-II+Front+End+Summary
+
+I4.1 FE? mistake?
+
+What's going on with I02? Currently I02 and J02, now I and K?
+I02 and K02
+
+All I now K?
+

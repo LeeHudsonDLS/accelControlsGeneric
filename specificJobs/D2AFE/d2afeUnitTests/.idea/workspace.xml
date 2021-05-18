@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="d2afeUnitTests" targetName="d2afeUnitTests" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d46fdde2-2793-4323-ae66-b6a8e47a890d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1rZ8h8Q8NMZ29rn2vi1feLhJWrK" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Debugger.ObjectiveC" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="d2afeUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="d2afeUnitTests" TARGET_NAME="d2afeUnitTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="d2afeUnitTests" RUN_TARGET_NAME="d2afeUnitTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d46fdde2-2793-4323-ae66-b6a8e47a890d" name="Default Changelist" comment="" />
+      <created>1619172367588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619172367588</updated>
+      <workItem from="1619172372896" duration="3506000" />
+      <workItem from="1619422242080" duration="1972000" />
+      <workItem from="1619438564481" duration="2021000" />
+      <workItem from="1619507855436" duration="6360000" />
+      <workItem from="1620199003487" duration="2325000" />
+      <workItem from="1620204664544" duration="4521000" />
+      <workItem from="1620215083850" duration="679000" />
+      <workItem from="1620889433526" duration="8636000" />
+      <workItem from="1621242783377" duration="3761000" />
+      <workItem from="1621323634537" duration="19733000" />
+      <workItem from="1621346973906" duration="175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/eeprom_write_block_test.cpp</url>
+          <line>290</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="cal_table" language="ObjectiveC" />
+        <watch expression="cal_table_read" language="ObjectiveC" />
+        <watch expression="offset" language="ObjectiveC" />
+        <watch expression="eeprom_data" language="ObjectiveC" />
+        <watch expression="att_table" language="ObjectiveC" />
+        <watch expression="att_table_read" language="ObjectiveC" />
+        <watch expression="cal_table_alt" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
