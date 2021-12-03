@@ -1,0 +1,4 @@
+/dls_sw/prod/tools/RHEL7-x86_64/clion/2019-2/src/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jjc62351/work/accelControlsGeneric/tools
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jjc62351/work/accelControlsGeneric/tools/cmake-build-debug
